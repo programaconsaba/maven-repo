@@ -42,8 +42,10 @@
 			<url>https://raw.githubusercontent.com/programaconsaba/maven-repo/master/</url>
 		</repository>
 	</repositories>
-	
+
 	<properties>
+
+		<desafios-core.version>1.0.0</desafios-core.version>
 
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -59,7 +61,7 @@
 		<dependency>
 			<groupId>com.programaconsaba.desafios</groupId>
 			<artifactId>desafios-core</artifactId>
-			<version>1.0.0.RC1</version>
+			<version>${desafios-core.version}</version>
 		</dependency>
 
 		<dependency>
